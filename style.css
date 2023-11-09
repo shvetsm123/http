@@ -736,7 +736,7 @@ li {
 }
 
 .stats_slash {
-    width: 0.1px;
+    width: 0.2px;
     height: 100px;
     background: gray;
     transform: rotate(20deg);
