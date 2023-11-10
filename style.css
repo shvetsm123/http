@@ -330,6 +330,8 @@ li {
         display: flex;
         width: 100%;
         display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .string {
@@ -339,10 +341,7 @@ li {
     .main_nav_link {
         font-size: 1.5rem;
         padding-bottom: 1rem;
-    }
-
-    .main_nav_link {
-        position: unset;
+        position: static;
         display: flex;
         justify-content: space-around;
     }
@@ -353,6 +352,8 @@ li {
 
     .names_for_sale_ul {
         box-shadow: none;
+        position: static;
+        margin: 0;
     }
 
     .last_ul {
