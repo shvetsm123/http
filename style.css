@@ -774,6 +774,19 @@ li {
         font-size: 2rem;
         font-weight: 500;
     }
+
+    .banner_img1 {
+        width: 10rem;
+        align-self: flex-start;
+    }
+
+    .banner_img2 {
+        width: 10rem;
+        align-self: flex-end;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
 }
 
 .banner_button:hover {
